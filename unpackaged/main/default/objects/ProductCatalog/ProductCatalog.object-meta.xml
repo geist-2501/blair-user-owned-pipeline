@@ -128,16 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Type</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CategoryEnum</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Asset</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CategoryEnum</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts />
+    <sharingModel>Private</sharingModel>
 </CustomObject>
