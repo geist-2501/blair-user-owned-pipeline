@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <layoutSections>
         <customLabel>false</customLabel>
@@ -19,6 +19,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>SelectedDeliveryMethodId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>DesiredDeliveryDate</field>
             </layoutItems>
             <layoutItems>
@@ -26,20 +30,21 @@
                 <field>ShippingInstructions</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <layoutColumns/>
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
         <fields>Name</fields>
         <fields>CartId</fields>
         <fields>CreatedDate</fields>
+        <fields>SelectedDeliveryMethodId</fields>
         <fields>DesiredDeliveryDate</fields>
         <fields>ShippingInstructions</fields>
     </miniLayout>
